@@ -52,7 +52,9 @@ h1 {
   border-bottom: 2px solid #43a047; }
 
 .dropdown {
-  border: none; }
+  border: none;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.45); }
 
 .chec {
   line-height: 1.8; }
@@ -62,8 +64,9 @@ h1 {
 
 .submit {
   display: block;
+  font-weight: 500;
   border: none;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   margin: 30px auto;
   width: 30%;
   border-radius: 8px;

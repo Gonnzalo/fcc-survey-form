@@ -45,6 +45,8 @@ h1 {
 
 .dropdown {
   border: none;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.45);
 }
 
 .chec {
@@ -57,8 +59,9 @@ h1 {
 
 .submit {
   display: block;
+  font-weight: 500;
   border: none;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   margin: 30px auto;
   width: 30%;
   border-radius: 8px;
