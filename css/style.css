@@ -8,15 +8,9 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  line-height: 1.3;
+  line-height: 1.6;
   color: #222;
   background-color: #43a047; }
-
-h1 {
-  text-align: center;
-  color: #fff;
-  margin-top: 10px; }
 
 .form {
   background-color: #eceff1;
@@ -25,10 +19,8 @@ h1 {
   border-radius: 6px;
   box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   width: 80%;
-  max-width: 600px; }
-
-.description {
-  text-align: center; }
+  max-width: 600px;
+  margin-bottom: 20px; }
 
 .left-col {
   display: inline-block;
@@ -40,21 +32,48 @@ h1 {
   display: inline-block;
   text-align: left;
   width: 50%;
-  padding: 10px 20px; }
+  padding: 10px 20px 10px 0px; }
 
-.checks {
-  display: flex;
-  align-items: baseline; }
+@media screen and (max-width: 600px) {
+  .left-col {
+    width: 80%;
+    text-align: left; }
+  .rigth-col {
+    width: 80%;
+    margin-left: 30px; }
+  .impro {
+    min-width: 100%; } }
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 10px; }
+
+.description {
+  text-align: center; }
 
 .input-field {
   border: none;
   background: transparent;
-  border-bottom: 2px solid #43a047; }
+  border-bottom: 1px solid #43a047; }
 
 .dropdown {
   border: none;
   border-radius: 3px;
-  color: rgba(0, 0, 0, 0.45); }
+  cursor: pointer; }
+  .dropdown option:first-child {
+    color: rgba(0, 0, 0, 0.45); }
+
+.gender {
+  vertical-align: top;
+  margin: 0; }
+
+.impro {
+  vertical-align: top;
+  margin: 0; }
+
+input[type="radio"] {
+  margin: 0 5px 0 5px; }
 
 .chec {
   line-height: 1.8; }
@@ -68,7 +87,7 @@ h1 {
   border: none;
   padding: 1rem 1rem;
   margin: 30px auto;
-  width: 30%;
+  min-width: 30%;
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
